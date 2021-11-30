@@ -40,7 +40,7 @@ function gotPoses(results)
 function draw() {
 background('#969A97');
 
-  document.getElementById("square_side").innerHTML = "Width And Height of a Square will be = " + difference +"px";
+  document.getElementById("square_side").innerHTML = "El ancho y la altura del cuadrado serán = " + difference +"px";
   fill('#F90093');
   stroke('#F90093');
   square(noseX, noseY, difference);
